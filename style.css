@@ -130,10 +130,22 @@ object{
         width: 100%;
     }
     
-    .top-blogs, .collection-items, .collection-item{
+    .collection-items, .collection-item{
         grid-template-columns: repeat(1, 1fr);
         
       
+    }
+    #e-commerce-img{
+        grid-template-rows: max-content;
+        
+        
+    }
+    .top-blogs, .img-top-blogs{
+        margin-left: 0px;
+        flex-direction: column-reverse;
+        align-items: center;
+        text-align: center;
+        
     }
     
 
